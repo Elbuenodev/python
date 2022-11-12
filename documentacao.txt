@@ -1,0 +1,18 @@
+Formularios Flask-WTForms
+-é uma extensão do Flask que torna o processamento de formulários  mais fácil de gerenciar
+-Valida a entrada do usuário
+-Fornece formulário seguro com token CSRF
+-renderiza os elementos do formulário dinamicamente
+-Fornece upload de arquivo que funciona com Flask Upload
+-Tanto o Flask como o Django, fazem uso dos formulário WTForms
+
+CSRF - Cross-site Request Forgery - é um tipo de ataque de website malicioso.
+- Também chamado  de ataque de um clique ou transporte de sessão
+-Ocorre quando uma requisição HTTP  é feita entre sites na tentativa de se passar por um usuario legitimo
+
+
+Documentação:
+wtforms.readthedocs.io/en/3.0.x
+wtforms.readthedocs.io/en/3.0.x/crash_course
+flask-wtf.readthedocs.io/en/1.0.x
+flask-wtf.readthedocs.io/en/1.0.x/quickstart
